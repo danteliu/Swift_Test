@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import Cupcake
-import SnapKit
 
 
 class ViewController: UIViewController {
@@ -33,7 +31,6 @@ class ViewController: UIViewController {
             make.left.equalToSuperview().offset(10)
             make.top.equalTo(view.snp.bottom).offset(10)
             make.size.equalTo(CGSize.init(width: 50, height: 50))
-
         }
         
     

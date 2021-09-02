@@ -118,11 +118,11 @@
 			children = (
 				256B480026AFE777007E13C8 /* AppDelegate.swift */,
 				256B480426AFE777007E13C8 /* ViewController.swift */,
+				256B483626B0E966007E13C8 /* baseNetworking.swift */,
 				256B480626AFE777007E13C8 /* Main.storyboard */,
 				256B480926AFE77A007E13C8 /* Assets.xcassets */,
 				256B480B26AFE77A007E13C8 /* LaunchScreen.storyboard */,
 				256B480E26AFE77A007E13C8 /* Info.plist */,
-				256B483626B0E966007E13C8 /* baseNetworking.swift */,
 			);
 			path = Swift_Test;
 			sourceTree = "<group>";
