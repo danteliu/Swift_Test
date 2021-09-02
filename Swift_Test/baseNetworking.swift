@@ -8,8 +8,6 @@
 import UIKit
 import Alamofire
 class baseNetworking: NSObject {
-    
-    
     class func pathWithMock(path:String, par:[String:Any]!, complete:@escaping ([String: Any])->Void) -> Void {
         print(par ?? [String:Any]())
         let basePath:String="https://www.fastmock.site/mock/"

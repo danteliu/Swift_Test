@@ -8,6 +8,7 @@
 import UIKit
 
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -31,6 +32,7 @@ class ViewController: UIViewController {
             make.left.equalToSuperview().offset(10)
             make.top.equalTo(view.snp.bottom).offset(10)
             make.size.equalTo(CGSize.init(width: 50, height: 50))
+
         }
         
     
