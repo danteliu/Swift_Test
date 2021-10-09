@@ -21,7 +21,6 @@ class ViewController: UIViewController {
         }
         view.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(10)
-
             make.top.equalToSuperview().offset(10)
             make.size.equalTo(CGSize(width: 50, height: 50))
         }

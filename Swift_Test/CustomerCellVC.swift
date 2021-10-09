@@ -16,10 +16,11 @@ class CustomerCellVC: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.bg(Color("random")!)
+        view.bg(Color("white")!)
         let tab = UITableView(frame: CGRect.zero, style: .plain)
         tab.delegate = self
         tab.dataSource = self
+        tab.estimatedRowHeight=60;
         tab.addTo(view)
         tab.snp.makeConstraints { make in
             make.edges.equalTo(UIEdgeInsets.zero)
