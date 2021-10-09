@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.bg(Color("random")!).onTap {
+        self.view.bg(ColorManager.shared.randomCor()).onTap {
             self.navigationController?.pushViewController(CustomerCellVC(), animated: true)
         }
 
@@ -40,8 +40,7 @@ class ViewController: UIViewController {
             print(res)
             print("hello")
         }
-
-        view.bg(Color("random")!)
+        view.bg(ColorManager.shared.randomCor())
     }
 
     func hello1() {
@@ -51,6 +50,6 @@ class ViewController: UIViewController {
             print("hello1")
         }
 
-        view.bg(Color("random")!)
+        view.bg(ColorManager.shared.randomCor())
     }
 }

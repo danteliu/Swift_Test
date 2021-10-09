@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// 页面管理器
 class PageManager {
     private var page = 0
     private var record = 0

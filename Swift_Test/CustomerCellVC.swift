@@ -61,7 +61,8 @@ extension CustomerCellVC {
             cell = UITableViewCell(style: .default, reuseIdentifier: sid)
             cell?.selectionStyle = .none
         }
-        cell?.bg(Color("random")!)
+        
+        cell?.bg(ColorManager.shared.randomCor())
         cell?.textLabel?.str(datas[indexPath.row])
         return cell ?? UITableViewCell()
     }
