@@ -49,7 +49,6 @@ class ViewController: BaseVC {
             print(res)
             print("hello1")
         }
-
         view.bg(cor.randomCor())
     }
 }
