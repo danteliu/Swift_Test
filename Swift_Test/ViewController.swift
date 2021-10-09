@@ -8,10 +8,10 @@
 import Cupcake
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.bg(ColorManager.shared.randomCor()).onTap {
+        self.view.bg(cor.randomCor()).onTap {
             self.navigationController?.pushViewController(CustomerCellVC(), animated: true)
         }
 
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
             print(res)
             print("hello")
         }
-        view.bg(ColorManager.shared.randomCor())
+        view.bg(cor.randomCor())
     }
 
     func hello1() {
@@ -50,6 +50,6 @@ class ViewController: UIViewController {
             print("hello1")
         }
 
-        view.bg(ColorManager.shared.randomCor())
+        view.bg(cor.randomCor())
     }
 }

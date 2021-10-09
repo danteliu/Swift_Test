@@ -8,7 +8,7 @@
 import Cupcake
 import UIKit
 
-class CustomerCellVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class CustomerCellVC: BaseVC, UITableViewDelegate, UITableViewDataSource {
     lazy var datas: [Any] = {
         let a = ["1", "2", "3"]
         return a
@@ -62,7 +62,7 @@ extension CustomerCellVC {
             cell?.selectionStyle = .none
         }
         
-        cell?.bg(ColorManager.shared.randomCor())
+        cell?.bg(cor.randomCor())
         cell?.textLabel?.str(datas[indexPath.row])
         return cell ?? UITableViewCell()
     }
