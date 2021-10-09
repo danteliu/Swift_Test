@@ -50,7 +50,7 @@ extension CustomerCellVC {
         case 2:
             print(page.getCurrentPage())
         default:
-            print("没有")
+            break
         }
     }
 
