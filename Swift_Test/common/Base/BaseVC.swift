@@ -8,6 +8,8 @@
 import UIKit
 
 class BaseVC: UIViewController {
+    
+    /// 颜色管理单例
     let cor = ColorManager.shared
 
     override func viewDidLoad() {
