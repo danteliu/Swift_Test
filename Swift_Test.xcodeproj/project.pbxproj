@@ -16,6 +16,7 @@
 		256B482326AFE77A007E13C8 /* Swift_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B482226AFE77A007E13C8 /* Swift_TestUITests.swift */; };
 		256B483726B0E966007E13C8 /* baseNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B483626B0E966007E13C8 /* baseNetworking.swift */; };
 		258B23F227113A0600711642 /* CustomerCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B23F127113A0500711642 /* CustomerCellVC.swift */; };
+		258B23F92711451F00711642 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258B23F82711451F00711642 /* common.swift */; };
 		2590F25726EA1078007338E3 /* string+rex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2590F25626EA1078007338E3 /* string+rex.swift */; };
 		6E3B6938BE7B6B0940D7AAC7 /* Pods_Swift_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2A4642C0C0018B8E959AAC /* Pods_Swift_Test.framework */; };
 		7C20ABA04AF7B7DEBC21E670 /* Pods_Swift_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D101C5CC0ACD9B70F0537942 /* Pods_Swift_TestTests.framework */; };
@@ -56,6 +57,7 @@
 		256B482426AFE77A007E13C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		256B483626B0E966007E13C8 /* baseNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseNetworking.swift; sourceTree = "<group>"; };
 		258B23F127113A0500711642 /* CustomerCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCellVC.swift; sourceTree = "<group>"; };
+		258B23F82711451F00711642 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		2590F25626EA1078007338E3 /* string+rex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "string+rex.swift"; sourceTree = "<group>"; };
 		306EF7C5112B9E322520EC91 /* Pods_Swift_Test_Swift_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Test_Swift_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D2A4642C0C0018B8E959AAC /* Pods_Swift_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +122,7 @@
 		256B47FF26AFE777007E13C8 /* Swift_Test */ = {
 			isa = PBXGroup;
 			children = (
+				258B23FA271145DD00711642 /* common */,
 				2590F25526EA1020007338E3 /* rex */,
 				256B480026AFE777007E13C8 /* AppDelegate.swift */,
 				256B480426AFE777007E13C8 /* ViewController.swift */,
@@ -149,6 +152,14 @@
 				256B482426AFE77A007E13C8 /* Info.plist */,
 			);
 			path = Swift_TestUITests;
+			sourceTree = "<group>";
+		};
+		258B23FA271145DD00711642 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				258B23F82711451F00711642 /* common.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 		2590F25526EA1020007338E3 /* rex */ = {
@@ -422,6 +433,7 @@
 			files = (
 				2590F25726EA1078007338E3 /* string+rex.swift in Sources */,
 				258B23F227113A0600711642 /* CustomerCellVC.swift in Sources */,
+				258B23F92711451F00711642 /* common.swift in Sources */,
 				256B480526AFE777007E13C8 /* ViewController.swift in Sources */,
 				256B480126AFE777007E13C8 /* AppDelegate.swift in Sources */,
 				256B483726B0E966007E13C8 /* baseNetworking.swift in Sources */,
