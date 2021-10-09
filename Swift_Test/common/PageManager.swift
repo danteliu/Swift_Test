@@ -14,10 +14,10 @@ class PageManager {
     init() {
         resetPage()
     }
-    
+
     /// 指定初始化页面
-    init(page:Int) {
-        record=page
+    init(page: Int) {
+        record = page
         resetPage()
     }
 
