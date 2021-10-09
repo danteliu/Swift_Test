@@ -133,7 +133,6 @@
 				256B480926AFE77A007E13C8 /* Assets.xcassets */,
 				256B480B26AFE77A007E13C8 /* LaunchScreen.storyboard */,
 				256B480E26AFE77A007E13C8 /* Info.plist */,
-				256B483626B0E966007E13C8 /* baseNetworking.swift */,
 			);
 			path = Swift_Test;
 			sourceTree = "<group>";
@@ -161,6 +160,7 @@
 			children = (
 				258B23F82711451F00711642 /* common.swift */,
 				258B23FB27116D7A00711642 /* PageManager.swift */,
+				256B483626B0E966007E13C8 /* baseNetworking.swift */,
 			);
 			path = common;
 			sourceTree = "<group>";
