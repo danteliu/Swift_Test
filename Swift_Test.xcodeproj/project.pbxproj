@@ -137,8 +137,8 @@
 		256B47FF26AFE777007E13C8 /* Swift_Test */ = {
 			isa = PBXGroup;
 			children = (
-				25583458271192CA0070BDDD /* ViewController */,
 				258B23FA271145DD00711642 /* common */,
+				25583458271192CA0070BDDD /* ViewController */,
 				256B480026AFE777007E13C8 /* AppDelegate.swift */,
 				256B480626AFE777007E13C8 /* Main.storyboard */,
 				256B480926AFE77A007E13C8 /* Assets.xcassets */,
