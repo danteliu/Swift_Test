@@ -7,9 +7,6 @@
 
 import UIKit
 
-@_exported import Cupcake//全局导入
-@_exported import SnapKit//全局导入
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

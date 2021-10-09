@@ -6,14 +6,16 @@
 //
 
 import UIKit
-
-
+import Cupcake
+import SnapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.bg(Color("random")!)
+        self.view.bg(Color("random")!).onTap {
+            self.navigationController?.pushViewController(CustomerCellVC.init(), animated: true)
+        }
         self.navigationController?.navigationBar.isTranslucent = false
         let view=View.addTo(self.view).bg(UIColor.red).onTap {
             self.hello()
@@ -32,7 +34,6 @@ class ViewController: UIViewController {
             make.left.equalToSuperview().offset(10)
             make.top.equalTo(view.snp.bottom).offset(10)
             make.size.equalTo(CGSize.init(width: 50, height: 50))
-
         }
         
     
