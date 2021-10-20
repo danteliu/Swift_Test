@@ -47,6 +47,7 @@ extension CustomerCellVC {
             page.addStep()
         case 1:
             page.resetPage()
+            "".testLog()
         case 2:
             print(page.getCurrentPage())
         default:
