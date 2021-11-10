@@ -28,6 +28,14 @@ class ViewController: BaseVC {
         let view1 = View.addTo(self.view).bg(UIColor.blue).onTap {
             self.hello1()
         }
+        AppLogManager.shared.nextStep(log: "你好")
+        AppLogManager.shared.nextStep(log: "我好")
+        AppLogManager.shared.nextStep(log: "大家好")
+        AppLogManager.shared.resetStep(start: 10)
+        AppLogManager.shared.nextStep(log: "你好")
+        AppLogManager.shared.nextStep(log: "我好")
+        AppLogManager.shared.nextStep(log: "大家好")
+
         view1.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(10)
             make.top.equalTo(view.snp.bottom).offset(10)

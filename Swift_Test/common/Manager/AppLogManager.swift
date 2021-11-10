@@ -9,9 +9,13 @@ import UIKit
 
 class AppLogManager {
     private var step = 0
-    init() {
+    /// 单例-严格的单例写法
+    static let shared = AppLogManager()
+    
+    private init() {
         self.resetStep(start: 0)
     }
+    
     func resetStep(start:Int) -> Void {
         step=start;
         print("\n初始化日志成功:\(step)")
@@ -19,8 +23,8 @@ class AppLogManager {
     
     /// 使用前请初始化step
     func nextStep(log:String) -> Void {
-        step+=1
         print("第 \(step) 步 -> \(log)")
+        step+=1
     }
     
     func nextStepForUDID(log:String) -> Void {
