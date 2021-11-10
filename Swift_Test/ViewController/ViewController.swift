@@ -28,7 +28,6 @@ class ViewController: BaseVC {
         let view1 = View.addTo(self.view).bg(UIColor.blue).onTap {
             self.hello1()
         }
-
         view1.snp.makeConstraints { make in
             make.left.equalToSuperview().offset(10)
             make.top.equalTo(view.snp.bottom).offset(10)

@@ -21,8 +21,9 @@ class AppLogManager {
         print("\n初始化日志成功:\(step)")
     }
     
-    /// 使用前请初始化step
+    /// 使用前请初始化step #function 打印当前函数名
     func nextStep(log:String) -> Void {
+        
         print("第 \(step) 步 -> \(log)")
         step+=1
     }
